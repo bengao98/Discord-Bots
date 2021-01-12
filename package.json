@@ -1,12 +1,11 @@
 {
-  "scripts": {
-    "heroku-postbuild": "npm --prefix frontend run installAndCompile && npm --prefix mockserver run installAndCompile",
-    "start": "npm --prefix mockserver start"
-  },
-  "name": "discordbot",
+  "name": "rollbot",
   "version": "1.0.0",
   "description": "Bot",
-  "main": "index.js",
+  "main": "rollbot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {
