@@ -1,1 +1,1 @@
-worker: python rollbot.js
+worker: node rollbot.js
